@@ -1,0 +1,50 @@
+{
+	"store": 
+	[
+		{
+			"StoreName": "9003-6013 QUEBEC INC (TAU ST-DENIS)",
+			"Address": "4238 ST-DENIS",
+			"City": "MONTREAL",
+			"Region" : "Montreal",
+			"PostalCode": "H2J 2K8",
+			"lat": 45.521870,
+			"lng": -73.578890
+		},
+		{
+			"StoreName": "9152-6491 QUEBEC INC (TAU LANGELIER)",
+			"Address": "7373 LANGELIER, D1",
+			"City": "SAINT-LEONARD",
+			"Region" : "Montreal",
+			"PostalCode": "H1S 1V7",
+			"lat": 45.592170,
+			"lng": -73.571010
+		},
+		{
+			"StoreName": "9228-6632 QUEBEC INC (TAU POINTE CLAIRE)",
+			"Address": "2335 AUT. TRANSCANADIENNE",
+			"City": "POINTE CLAIRE",
+			"Region" : "Montreal",
+			"PostalCode": "H9R 5Z5",
+			"lat": 45.478540,
+			"lng": -73.797060
+		},
+		{
+			"StoreName": "A VOTRE SANTE",
+			"Address": "5126 SHERBROOKE OUEST",
+			"City": "MONTREAL",
+			"Region" : "Montreal",
+			"PostalCode": "H4A 1T1",
+			"lat": 45.475820,
+			"lng": -73.606640
+		},
+		{
+			"StoreName": "ALIMENTS NATURELS JADE",
+			"Address": "505 STE-CATHERINE E # 727",
+			"City": "MONTREAL",
+			"Region" : "Montreal",
+			"PostalCode": "H2L 2C9",
+			"lat": 45.514920,
+			"lng": -73.559750
+		}
+	]
+}

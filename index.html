@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dealers</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="medelys-global__maps">
+        <div id="map"></div>
+        <div id="map-settings">
+            <h3>Find a Dealer</h1>
+            <div class="description">
+                <p>To locate a Toyota Canada Dealer, enter a Postal Code, Province, City or Dealer Name:</p>
+            </div>
+            <div class="map-ways">
+                <div class="first-way">
+                    <button id="find-near-me" onclick="maps.findNearMe();">Find Near Me</button>
+                </div>
+                <span class="or">or</span>
+                <div class="second-way">
+                    <select name="" id="">
+                        <option value="">Search by Postal Code</option>
+                        <option value="">Search by City</option>
+                        <option value="">Search by Province</option>
+                    </select>
+                    <input type="text">
+                    <button>Find</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVoXSCjfsO2D1t-lRSdJk3SNXGslmMNgQ&libraries=drawing,geometry,places"></script>
+        <script src="initMaps.js"></script>
+</body>
+
+</html>

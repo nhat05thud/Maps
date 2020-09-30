@@ -1,0 +1,84 @@
+html,
+        body,
+        #map {
+            height: 100%;
+            width: 100%;
+            margin: 0px;
+            padding: 0px
+        }
+        *{
+            box-sizing: border-box;
+        }
+        #medelys-global__maps {
+        }
+        #map, #map-settings {
+            position: fixed !important;
+            top: 0;
+            height: 100%;
+        }
+        #map {
+            width: calc(100% - 435px);
+            left: 0;
+            background: #ccc;
+        }
+        #map-settings{
+            width: 435px;
+            text-align: center;
+            background: #fff;
+            padding: 25px 40px;
+            right: 0;
+        }
+        .map-ways {
+            overflow: hidden;
+        }
+.map-ways button {
+    background-color: #0079c0;
+    border: 2px solid transparent;
+    color: #fff;
+    padding: 9px 32px 11px;
+    border-radius: 6px;
+    line-height: 1.2;
+    text-align: center;
+    vertical-align: middle;
+    transition: background .3s ease 0s,border .3s ease 0s;
+    width: 100%;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.map-ways button:hover {
+    background-color: #005a92;
+}
+.map-ways input, .map-ways select {
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    color: #000;
+    border-radius: 5px;
+    margin: 10px 0;
+    line-height: 30px;
+}
+.map-ways select{
+    height: 45px;
+}
+span.or {
+    font-size: 15px;
+    text-transform: uppercase;
+    position: relative;
+}
+span.or:before,
+span.or:after {
+    position: absolute;
+    content: "";
+    background: #ddd;
+    height: 1px;
+    width: 200px;
+    top: 0; 
+    bottom: 0;
+    margin: auto;
+}
+span.or:before {
+    right: calc(100% + 10px);
+}
+span.or:after {
+    left: calc(100% + 10px);
+}
